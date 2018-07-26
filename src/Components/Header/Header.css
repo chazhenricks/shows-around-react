@@ -1,0 +1,23 @@
+.header-title {
+  text-transform: uppercase;
+}
+
+.header {
+  background-color: var(--black);
+  color: var(--white);
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 10px;
+}
+
+.header-title {
+  flex-grow: 1;
+}
+
+.searchbar {
+  flex-grow: 4;
+}
+
+.navlist-ul {
+  flex-grow: 1;
+}
